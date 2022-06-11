@@ -1,0 +1,39 @@
+.card{
+    min-height: 470px;
+    width: 330px;
+    background-color: rgb(215, 254, 215);
+    border-radius: 20px;
+    display: grid;
+    place-content: center;
+    padding: .5rem;
+    box-shadow: 0px 0px 15px rgb(188, 188, 188);
+    margin: 1rem;
+    transition: .5s ;
+}
+span{
+    background-color: rgb(255, 236, 239);
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-size: .99rem;
+}
+.card:hover{
+    box-shadow: none;
+}
+h1{
+    text-decoration: underline;
+    color: green;
+    margin: .7rem;
+}
+p{
+    font-size: 1.1rem;
+    color: rgb(87, 87, 87);
+    font-weight: 500;
+    margin: .7rem;
+
+}
+.link{
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    margin: 2.2rem;
+}
